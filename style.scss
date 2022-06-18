@@ -4,8 +4,11 @@ body {
         place-items: center;
         min-height: 100vh;
         width: 100%;
-        margin: 0px;
-        padding: 0px;
+       
+    }
+    * {
+        margin: 0;
+        padding: 0;
     }
     
     img {
@@ -16,6 +19,9 @@ body {
 #page_header{
     display: grid;
     grid-auto-flow: column;
+    width: 100%;
+    background-color: #001f3f;
+
     
 
 #img_header{
