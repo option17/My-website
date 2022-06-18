@@ -1,0 +1,27 @@
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  place-items: center;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  width: 100%;
+}
+
+#page_header {
+  display: grid;
+  grid-auto-flow: column;
+}
+#page_header #img_header {
+  width: 60px;
+  height: 60px;
+  place-self: start;
+}
+#page_header nav {
+  display: inline-flex;
+  place-self: end;
+}/*# sourceMappingURL=style.css.map */
